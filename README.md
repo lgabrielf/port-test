@@ -1,6 +1,6 @@
 # Port test ⚡
 
-This simple project allows testing of communication with tcp and udp ports. It is a useful tool for anyone who works with network services. Through this tool, it is possible to check whether the services of a given server/computer are available over the internet.
+This simple project allows testing of communication with tcp ports. It is a useful tool for anyone who works with network services. Through this tool, it is possible to check whether the services of a given server/computer are available over the internet.
 
 
 ## 📋 Requirements
