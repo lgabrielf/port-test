@@ -18,12 +18,9 @@ port = st.number_input("Port", 0, 65535, step=1)
 
 st.markdown("<en>", unsafe_allow_html=True)
 
-col1 = st.columns(2)
-
-with col1:
-    if st.button("TCP Test"):
-        result = test_tcp_port(host, port)
-        if result:
-            st.success("TCP port is open!")
-        else:
-            st.error("TCP port is close.")
+if st.button("TCP Test"):
+    result = test_tcp_port(host, port)
+    if result:
+        st.success("TCP port is open!")
+    else:
+        st.error("TCP port is close.")
